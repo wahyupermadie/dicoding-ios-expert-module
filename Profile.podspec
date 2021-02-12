@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.swift_version = "5.1"
   s.name         = "Profile"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "Profile module for Dicoding Modularization"
   s.requires_arc = true
 
