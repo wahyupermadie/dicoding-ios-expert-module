@@ -10,6 +10,7 @@
 		D46A1C4425D6CE900069ABCE /* Profile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D46A1C3A25D6CE900069ABCE /* Profile.framework */; };
 		D46A1C4925D6CE900069ABCE /* ProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46A1C4825D6CE900069ABCE /* ProfileTests.swift */; };
 		D46A1C4B25D6CE900069ABCE /* Profile.h in Headers */ = {isa = PBXBuildFile; fileRef = D46A1C3D25D6CE900069ABCE /* Profile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D46A1C5825D6DBBF0069ABCE /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46A1C5725D6DBBF0069ABCE /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		D46A1C4325D6CE900069ABCE /* ProfileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProfileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D46A1C4825D6CE900069ABCE /* ProfileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTests.swift; sourceTree = "<group>"; };
 		D46A1C4A25D6CE900069ABCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D46A1C5725D6DBBF0069ABCE /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		D46A1C3C25D6CE900069ABCE /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				D46A1C5625D6DBA80069ABCE /* view */,
 				D46A1C3D25D6CE900069ABCE /* Profile.h */,
 				D46A1C3E25D6CE900069ABCE /* Info.plist */,
 			);
@@ -84,6 +87,14 @@
 				D46A1C4A25D6CE900069ABCE /* Info.plist */,
 			);
 			path = ProfileTests;
+			sourceTree = "<group>";
+		};
+		D46A1C5625D6DBA80069ABCE /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D46A1C5725D6DBBF0069ABCE /* ProfileView.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +158,7 @@
 				TargetAttributes = {
 					D46A1C3925D6CE900069ABCE = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 					};
 					D46A1C4225D6CE900069ABCE = {
 						CreatedOnToolsVersion = 12.3;
@@ -194,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D46A1C5825D6DBBF0069ABCE /* ProfileView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +354,7 @@
 		D46A1C4F25D6CE900069ABCE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = JM56TAFZR9;
@@ -357,6 +371,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = wahyupermadie.Profile;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,6 +380,7 @@
 		D46A1C5025D6CE900069ABCE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = JM56TAFZR9;
@@ -389,6 +405,7 @@
 		D46A1C5225D6CE900069ABCE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JM56TAFZR9;
 				INFOPLIST_FILE = ProfileTests/Info.plist;
@@ -407,6 +424,7 @@
 		D46A1C5325D6CE900069ABCE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JM56TAFZR9;
 				INFOPLIST_FILE = ProfileTests/Info.plist;
