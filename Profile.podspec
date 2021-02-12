@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.swift_version = "5.1"
   s.name         = "Profile"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Profile module for Dicoding Modularization"
   s.requires_arc = true
 
@@ -86,7 +86,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Profile/**/*.{swift}"
+  s.source_files  = "Profile/Classes/**/*.{swift}"
 
   # spec.public_header_files = "Classes/**/*.h"
 
@@ -102,7 +102,7 @@ Pod::Spec.new do |s|
   # spec.resource  = "icon.png"
   # spec.resources = "Resources/*.png"
 
-  s.resources = "Core/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+  s.resources = "Profile/Assets/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
