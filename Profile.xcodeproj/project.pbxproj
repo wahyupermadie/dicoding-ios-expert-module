@@ -73,7 +73,7 @@
 		D46A1C3C25D6CE900069ABCE /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				D46A1C5625D6DBA80069ABCE /* view */,
+				D46A1C5625D6DBA80069ABCE /* Presentation */,
 				D46A1C3D25D6CE900069ABCE /* Profile.h */,
 				D46A1C3E25D6CE900069ABCE /* Info.plist */,
 			);
@@ -89,12 +89,12 @@
 			path = ProfileTests;
 			sourceTree = "<group>";
 		};
-		D46A1C5625D6DBA80069ABCE /* view */ = {
+		D46A1C5625D6DBA80069ABCE /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
 				D46A1C5725D6DBBF0069ABCE /* ProfileView.swift */,
 			);
-			path = view;
+			path = Presentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
