@@ -12,7 +12,7 @@ public struct ProfileView: View {
     }
     public var body: some View {
         VStack {
-            Image("avatar", bundle: Bundle(identifier: "wahyupermadie.Profile"))
+            Image("avatar", bundle: ProfileViewBundle.shared.bundle())
                 .resizable()
                 .frame(width: 240, height: 240)
                 .cornerRadius(20)

@@ -12,6 +12,7 @@
 		D46A1C4B25D6CE900069ABCE /* Profile.h in Headers */ = {isa = PBXBuildFile; fileRef = D46A1C3D25D6CE900069ABCE /* Profile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D46A1C5825D6DBBF0069ABCE /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46A1C5725D6DBBF0069ABCE /* ProfileView.swift */; };
 		D4C2D88F25DC080B00A2FC7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4C2D88E25DC080A00A2FC7A /* Assets.xcassets */; };
+		D4C2D9D625DC3C0300A2FC7A /* ProfileViewBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C2D9D525DC3C0300A2FC7A /* ProfileViewBundle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		D46A1C4A25D6CE900069ABCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D46A1C5725D6DBBF0069ABCE /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		D4C2D88E25DC080A00A2FC7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4C2D9D525DC3C0300A2FC7A /* ProfileViewBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewBundle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		D46A1C3C25D6CE900069ABCE /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				D4C2D9D425DC3BFA00A2FC7A /* Utils */,
 				D46A1C5625D6DBA80069ABCE /* Presentation */,
 				D46A1C3D25D6CE900069ABCE /* Profile.h */,
 				D46A1C3E25D6CE900069ABCE /* Info.plist */,
@@ -98,6 +101,14 @@
 				D46A1C5725D6DBBF0069ABCE /* ProfileView.swift */,
 			);
 			path = Presentation;
+			sourceTree = "<group>";
+		};
+		D4C2D9D425DC3BFA00A2FC7A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D4C2D9D525DC3C0300A2FC7A /* ProfileViewBundle.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D46A1C5825D6DBBF0069ABCE /* ProfileView.swift in Sources */,
+				D4C2D9D625DC3C0300A2FC7A /* ProfileViewBundle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
