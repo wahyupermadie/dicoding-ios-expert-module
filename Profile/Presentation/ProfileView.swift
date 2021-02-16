@@ -9,7 +9,16 @@ import SwiftUI
 
 public struct ProfileView: View {
     public var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Image("avatar", bundle: Bundle(identifier: "wahyupermadie.Profile"))
+                .resizable()
+                .frame(width: 240, height: 240)
+                .cornerRadius(20)
+            Text("I Putu Wahyu Permadi")
+                .font(.title)
+            Text("https://github.com/wahyupermadie")
+                .foregroundColor(.gray)
+        }
     }
 }
 
