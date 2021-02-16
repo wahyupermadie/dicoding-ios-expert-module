@@ -8,6 +8,7 @@
 import SwiftUI
 
 public struct ProfileView: View {
+    public init(){}
     public var body: some View {
         VStack {
             Image("avatar", bundle: Bundle(identifier: "wahyupermadie.Profile"))
